@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "bybilay-robotctrl_jd109"
+name = "bybilay-batch_scheduling_throughput_length_profile"
 version = "0.1.0"
 description = "按段落统计机器人运动控制工程师·批处理调度与吞吐折中相关的长度分布，标出过长、过短与重复表达的部分"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://bybilay.github.io"
-Repository = "https://github.com/bybilay/robotctrl_jd109"
-Issues = "https://github.com/bybilay/robotctrl_jd109/issues"
+Repository = "https://github.com/bybilay/batch_scheduling_throughput_length_profile"
+Issues = "https://github.com/bybilay/batch_scheduling_throughput_length_profile/issues"
 
 [project.scripts]
-robotctrl_jd109 = "robotctrl_jd109:main"
+batch_scheduling_throughput_length_profile = "batch_scheduling_throughput_length_profile:main"
 
 [tool.setuptools]
-py-modules = ["robotctrl_jd109"]
+py-modules = ["batch_scheduling_throughput_length_profile"]
